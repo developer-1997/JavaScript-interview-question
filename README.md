@@ -1,12 +1,10 @@
 # 123-JavaScript-Interview-Questions
 
-These questions were shared by [https://github.com/ganqqwerty/123-Essential-JavaScript-Interview-Question](https://github.com/ganqqwerty/123-Essential-JavaScript-Interview-Question) under BSD 3-Clause License.
-
 
 ## Question 1. Difference between `undefined` and `not defined` in JavaScript
-> In JavaScript if you try to use a variable that doesn't exist and has not been declared, then JavaScript will throw an error `var name is not defined` and the script will stop execute thereafter. But If you use `typeof undeclared_variable` then it will return `undefined`.
+> "undefined" indicates that a variable has been declared but not given a value, while "not defined" indicates that a variable does not exist.
 
-Before starting further discussion let's understand the difference between declaration and definition.
+let's understand the difference between declaration and definition.
 
 `var x` is a declaration because you are not defining what value it holds yet, but you are declaring its existence and the need of memory allocation.
 
@@ -29,10 +27,6 @@ if(typeof x === 'undefined') // Will return true
 ```javascript
 console.log(y);  // Output: ReferenceError: y is not defined
 ```
-
-### Ref Link:
-[http://stackoverflow.com/questions/20822022/javascript-variable-definition-declaration](http://stackoverflow.com/questions/20822022/javascript-variable-definition-declaration)
-
 
 ## Question 2. What will be the output of the following code?
 
