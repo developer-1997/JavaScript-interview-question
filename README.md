@@ -1,6 +1,10 @@
 # 123-JavaScript-Interview-Questions
 
 
+
+## Question . what is polyfill
+ `A polyfill is a piece of code (usually JavaScript on the Web) used to provide modern functionality on older browsers that do not natively support it.`
+
 ## Question 1. Difference between `undefined` and `not defined` in JavaScript
 > "undefined" indicates that a variable has been declared but not given a value, while "not defined" indicates that a variable does not exist.
 
